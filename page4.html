@@ -51,26 +51,40 @@ body,td,th {
 
 <table cellspacing="0" cellpadding="5" width="%100" align="center">
 		<tr>
- 		    <td width="188" align="right"><input name="bookname" type="text" size="50" maxlength="70" value="" /></td>
+            <td width="188" align="right"><input name="subject" type="text" size="30" maxlength="70" value="" /></td>
+            <td width="150" align="right" ><b>: موضوع</b></td>
+ 		    <td width="188" align="right"><input name="bookname" type="text" size="30" maxlength="70" value="" /></td>
             <td width="150" align="right" ><b>: نام کتاب</b></td>
 		</tr>
 		<tr>
-			<td align="right"><input name="writer" type="text" size="50" maxlength="70" value="" /></td>
+ 		    <td width="188" align="right"><input name="translator" type="text" size="30" maxlength="70" value="" /></td>
+            <td width="150" align="right" ><b>: مترجم</b></td>
+			<td align="right"><input name="writer" type="text" size="30" maxlength="70" value="" /></td>
 			<td align="right"><b>: نام نویسنده</b></td>
 		</tr>
 		<tr>
+ 		    <td width="188" align="right">
+              <select align="right" name="select">
+                <option><b></b></option>
+ 		        <option value="base">علوم پایه</option>           
+ 		        <option value="human">علوم انسانی</option>        
+ 		        <option value="arc">هنر</option>            
+ 		        <option value="srory">داستان</option>            
+ 		        <option value="baby">کودکان</option>            
+	          </select></td>
+            <td width="150" align="right" ><b>: گروه</b></td>
 			<td align="right"><input name="publisher" type="text" size="30" maxlength="60" value="" dir="ltr" /></td>
             <td align="right"><b>: انتشارات</b></td>
 		</tr>
 		<tr>
-			<td align="right"><input type="number" name="year" autocomplete="off" maxlength="4" dir="ltr" /></td>
+			<td colspan="2">&nbsp;</td>
+            <td align="right"><input type="number" name="year" autocomplete="off" maxlength="4" dir="ltr" /></td>
             <td align="right"><b>: سال انتشار</b></td>
 		</tr>
-
-			<td colspan="2">&nbsp;</td>
+			<td colspan="4">&nbsp;</td>
 		</tr>
     	<tr>
-           <td colspan="2" align="right"><input name="search" type="button" width="86" align="absmiddle" value="جستجو" height="22" border="1" />
+           <td colspan="4" align="right"><input name="search" type="button" width="86" align="absmiddle" value="جستجو" height="22" border="1" />
            </td>
         </tr>
 </table>
